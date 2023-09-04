@@ -10,7 +10,7 @@ export default function Header ({darkMode, handleThemeChange}: Props){
         <AppBar position="static" sx={{mb:4}}>
             <Toolbar>
                 <Typography variant="h6">
-                    Ecom
+                    Ski equipment web store
                 </Typography>
                 <Switch checked={darkMode} onChange={handleThemeChange} />
             </Toolbar>
