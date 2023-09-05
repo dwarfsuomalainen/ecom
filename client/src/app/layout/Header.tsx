@@ -1,5 +1,6 @@
 import { ShoppingCart } from "@mui/icons-material";
 import { NavLink } from "react-router-dom";
+import { Router } from "react-router-dom";
 import {
   AppBar,
   Badge,
@@ -60,7 +61,7 @@ export default function Header({ darkMode, handleThemeChange }: Props) {
             </ListItem>
           ))}
         </List>
-        <Box alignItems='center'>
+        <Box display='flex' alignItems='center'>
           <IconButton size="large" edge="start" color="inherit" sx={{ mr: 2 }}>
             <Badge badgeContent="4" color="secondary">
               <ShoppingCart></ShoppingCart>
