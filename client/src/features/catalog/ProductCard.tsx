@@ -8,7 +8,7 @@ import {
   CardMedia,
   Typography,
 } from "@mui/material";
-import { Product } from "../../app/models/types/product";
+import { Product } from "../about/models/types/product";
 import { Link } from "react-router-dom";
 
 interface Props {
