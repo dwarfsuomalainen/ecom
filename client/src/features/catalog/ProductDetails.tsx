@@ -49,7 +49,7 @@ export default function ProductDetails() {
         <Typography variant="h3">{product?.name}</Typography>
         <Divider sx={{ mb: 2 }}></Divider>
         <Typography variant="h4" color="secondary">
-          {(product.price / 100).toFixed(2)}
+          € {(product.price / 100).toFixed(2)}
         </Typography>
         <TableContainer>
           <Table>
